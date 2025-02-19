@@ -11,7 +11,7 @@ import { IconMenu2 } from "@tabler/icons-vue";
       </div>
       <div>
         <div
-          class="rounded-full bg-gray-200 w-8 h-8 items-center flex justify-center"
+          class="rounded-full bg-gray-200 w-8 h-8 items-center flex justify-center cursor-pointer"
         >
           H
         </div>

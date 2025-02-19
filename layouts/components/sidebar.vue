@@ -34,12 +34,10 @@ const leave = (el, done) => {
 </script>
 <template>
   <div
-    class="lg:w-[17.5rem] w-0 fixed z-30 h-full ltr:border-r rtl:border-l border-gray-200"
+    class="w-[17.5rem] fixed z-50 bg-white h-full ltr:border-r rtl:border-l border-gray-200"
   >
-    <div class="flex grow relative flex-col bg-white dark:bg-dark-900">
-      <header
-        class="lg:flex hidden h-[61px] shrink-0 items-center justify-between p-6"
-      >
+    <div class="flex grow relative flex-col bg-white">
+      <header class="flex h-[61px] shrink-0 items-center justify-between p-6">
         <div
           class="flex items-center justify-start gap-4 pt-3 sticky top-0 z-20"
         >
@@ -135,7 +133,7 @@ const leave = (el, done) => {
                   >
                     <div
                       v-for="(sub, subIndex) in item.sub"
-                      class="flex flex-col space-y-1 px-3"
+                      class="flex flex-col mt-1 px-3"
                       :key="subIndex"
                     >
                       <div class="relative flex">
