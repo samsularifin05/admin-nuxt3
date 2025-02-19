@@ -29,7 +29,6 @@ const sidelinks: SideLink[] = [
   {
     title: "Dashboard",
     label: "",
-    header: "Apps",
     href: "dashboard",
     icon: <IconUserShield size={18} />,
     sub: [
@@ -49,8 +48,179 @@ const sidelinks: SideLink[] = [
     title: "Orders",
     label: "",
     href: "orders",
+    header: "Apps",
     icon: <IconPackage size={18} />,
     sub: [
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
+      {
+        title: "All Orders",
+        href: "orders/all",
+        icon: <IconFile size={18} />
+      },
+      {
+        title: "Pending Orders",
+        href: "orders/pending",
+        icon: <IconLock size={18} />
+      },
       {
         title: "All Orders",
         href: "orders/all",
@@ -102,6 +272,7 @@ const sidelinks: SideLink[] = [
   {
     title: "Reports",
     label: "",
+    header: "Apps 2",
     href: "reports",
     icon: <IconFileChart size={18} />,
     sub: [
