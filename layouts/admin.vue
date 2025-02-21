@@ -12,9 +12,7 @@ useHead({
 <template>
   <div class="flex">
     <Sidebar />
-    <!-- <div
-      class="fixed inset-0 z-20 bg-gray-900/50 backdrop-blur transition-opacity dark:bg-black/40"
-    ></div> -->
+
     <div class="flex-1">
       <Navbar />
       <MainContent>

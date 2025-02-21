@@ -1,5 +1,10 @@
 <script setup>
 import { IconMenu2 } from "@tabler/icons-vue";
+import { useThemeStore } from "~/store/theme";
+
+const themeStore = useThemeStore();
+const { sidebar } = storeToRefs(themeStore);
+const { setActiveSideBar } = themeStore;
 </script>
 <template>
   <header
@@ -7,7 +12,10 @@ import { IconMenu2 } from "@tabler/icons-vue";
   >
     <div class="flex items-center gap-2 flex-1">
       <div class="flex-1">
-        <IconMenu2 class="lg:hidden flex" />
+        <IconMenu2
+          class="lg:hidden flex cursor-pointer"
+          @click="setActiveSideBar(!sidebar)"
+        />
       </div>
       <div>
         <div
